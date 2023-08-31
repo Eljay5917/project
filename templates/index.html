@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rain Buddy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+</head>
+
+<body>
+    <div class="text-center mt-3">
+        <img src="/static/assets/logo.jpeg" alt="Rain Buddy Logo">
+    </div>
+    <div class="text-center mt-1">
+        <h1 text-color= "white" class="text-primary">Rain Buddy</h1>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-primary p-4 mb-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Select a country:</label>
+                        <select id="country" name="country" class="form-select">
+                            <option value="usa">United States</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="nigeria">Nigeria</option>
+                           
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="weather" class="form-label">Select weather:</label>
+                        <select id="weather" name="weather" class="form-select">
+                            <option value="rain">Rain</option>
+                            <option value="humidity">Humidity</option>
+                            
+                        </select>
+                    </div >
+                    <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>   
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+</html>
